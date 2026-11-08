@@ -1,0 +1,48 @@
+name: Compatibility or runtime problem
+description: Report a reproducible problem with this unofficial Linux patch
+body:
+  - type: markdown
+    attributes:
+      value: This is an unofficial compatibility patch. Share only reviewed, sanitized log excerpts. Do not attach game or mod JARs, SDK binaries, tokens, or private files.
+  - type: input
+    id: versions
+    attributes:
+      label: Versions and original JAR fingerprint
+      description: Viewpoint, PZ, Java, patch commit, and whether the supported original hash matched.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: GPU, NVIDIA driver and Linux distribution
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where does it fail?
+      options:
+        - Build or offline checks
+        - Staged SR GPU fixture
+        - Staged FG GPU fixture
+        - Installation or rollback
+        - Actual game scene
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and actual result
+      description: Include the exact relevant error, steps, settings and whether SR and FG were enabled together.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Checks completed and sanitized evidence
+      description: Distinguish build, fixture, initialization logs, visible behavior and actual measurements. Note any untested parts.
+  - type: textarea
+    id: agent
+    attributes:
+      label: Agent installation feedback (if applicable)
+      description: Which documented step was unclear or failed? Do not paste private agent history.
