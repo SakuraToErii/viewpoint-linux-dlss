@@ -1,0 +1,20 @@
+{
+  "viewpoint_version": "0.1.6.1",
+  "viewpoint_original_sha256": "096bd37d63cb699ac95e9e7ea5245a1b9b5ff08c5161db35f6733b1d1c42b064",
+  "project_zomboid_version": "42.21.0",
+  "sdk_commit": "9981c6350dc58c0ce21f024fd65e31e851c31689",
+  "tools": {
+    "cfr.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/benf/cfr/0.152/cfr-0.152.jar",
+      "sha256": "f686e8f3ded377d7bc87d216a90e9e9512df4156e75b06c655a16648ae8765b2"
+    },
+    "ecj.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.44.0/ecj-3.44.0.jar",
+      "sha256": "14c46ddc2e511c46c998da728f6a80f13a689c920f3832402f7ad150f6a6188d"
+    },
+    "vulkan-headers.tar.gz": {
+      "url": "https://codeload.github.com/KhronosGroup/Vulkan-Headers/tar.gz/refs/tags/v1.4.321",
+      "sha256": "7c1874f9186d9e7d5245e279cdccaa77a66ed8f52871b428630aeb771dc7623c"
+    }
+  }
+}

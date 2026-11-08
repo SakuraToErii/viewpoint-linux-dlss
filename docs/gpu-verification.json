@@ -1,0 +1,20 @@
+{
+  "gpu": "RTX 4060 Laptop",
+  "driver": "615.78.08",
+  "output_resolution": [
+    1280,
+    720
+  ],
+  "guide_resolution": [
+    858,
+    482
+  ],
+  "simultaneous_sr_fg": true,
+  "verified_moving_frames": 11,
+  "midpoint_lag_range": [
+    2.962,
+    3.002
+  ],
+  "expected_midpoint_lag": 3,
+  "actual_game_scene_verified": false
+}

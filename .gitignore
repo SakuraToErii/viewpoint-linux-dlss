@@ -1,0 +1,14 @@
+/_work/
+/dist/
+/state/
+/vendor/
+__pycache__/
+*.pyc
+*.jar
+*.class
+*.so
+*.so.*
+*.a
+*.log
+hs_err_pid*
+core
